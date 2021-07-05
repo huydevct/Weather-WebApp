@@ -26,5 +26,19 @@
 
 .search-icon {
     margin-right: 5px;
-    
+    position: absolute;
+    left: 0;
+}
+
+#search-input {
+    border: 0;
+    outline: 0;
+    padding: 3px 3px 3px 20px;
+    background: transparent;
+    height: 20px;
+    color: white;
+}
+
+#search-input::placeholder {
+    color: rgb(206, 206, 206);
 }
