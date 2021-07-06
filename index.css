@@ -42,3 +42,39 @@
 #search-input::placeholder {
     color: rgb(206, 206, 206);
 }
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 80px 50px;
+}
+
+.city-name {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.weather-state {
+    font-size: 13px;
+}
+
+.weather-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.temperature {
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 1;
+    position: relative;
+}
+
+.temperature::after {
+    content: 'o';
+    position: absolute;
+    font-size: 30px;
+}
