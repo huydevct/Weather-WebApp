@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <script src="./js/all.min.js"></script>
+    <script src="./js/moment.js"></script>
   </head>
   <body>
     <div class="container">
@@ -32,6 +33,7 @@
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
             alt="weather icon"
+            class="weather-icon"
           />
           <p class="temperature">26</p>
         </div>
@@ -39,25 +41,27 @@
       <div class="additional-section">
         <div class="row">
           <div class="item">
-            <div class="label">MT Mọc</div>
+            <div class="label sunrise">MT Mọc</div>
             <div class="value">6:16</div>
           </div>
           <div class="item">
-            <div class="label">MT Lặn</div>
+            <div class="label sunset">MT Lặn</div>
             <div class="value">17:16</div>
           </div>
         </div>
         <div class="row">
           <div class="item">
             <div class="label">Độ Ẩm</div>
-            <div class="value">72%</div>
+            <div class="value"><span class="humidity">73</span>%</div>
           </div>
           <div class="item">
             <div class="label">Gió</div>
-            <div class="value">5.54 km/h</div>
+            <div class="value"><span class="wind-speed">5.54</span>km/h</div>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
